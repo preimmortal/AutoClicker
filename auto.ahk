@@ -33,10 +33,10 @@ preAutoJoin(Speed=1000)
 	
 	ClickJoin:
 	MouseClick, Right
-	MouseMove, 100, 100, 10, R
+	MouseMove, 100, 120, 10, R
 	Sleep, 100
 	MouseClick, Left
-	MouseMove, -100, -100, 10, R
+	MouseMove, -100, -120, 10, R
 	Sleep, 100
 	Send, {Escape}
 	Return
